@@ -7,8 +7,8 @@ long long int fib(int x){
     for (int c = 0; c < x; c ++){
     if (c > 0){
         aux = v1;
-          v1 = v2;
-          v2 += aux;
+        v1 = v2;
+        v2 += aux;
         } 
     }
     if (x == 0){
